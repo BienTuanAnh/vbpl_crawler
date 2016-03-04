@@ -1,0 +1,1 @@
+mongoexport --db vbpl --collection crawler.vbpl.vn --type=csv --fields document_id,content,title,official_number,legislation_type,source,department,issuing_office,effective_area,issued_date,effective_date,effect,gazette_date,field,signer_title,signer_name,related_documents,crawl_date --out vbpl.csv
